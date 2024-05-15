@@ -6,7 +6,7 @@ import { HeroSlider } from "./HeroSlider";
 export const Hero = () => {
   return (
     <div className=" mt-[30px]">
-      <div className="relative  rounded-[12px] gradient-bg flex items-center justify-between py-[15px] px-[10px]">
+      <div className="relative  rounded-[12px] md:rounded-none gradient-bg flex items-center justify-between py-[15px] px-[10px]">
         <div className="absolute top-0 z-10 left-[10%] bottom-0 ">
           <Image
             alt="circle"
@@ -37,7 +37,7 @@ export const Hero = () => {
           </button>
         </div>
       </div>
-      <div className="mt-4">
+      <div className="mt-4 ">
         <HeroSlider />
       </div>
     </div>

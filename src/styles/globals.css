@@ -5,3 +5,7 @@
 .gradient-bg {
   background: linear-gradient(to right, #F81F1F 0%, #FFA31A 100%);
 }
+
+.slick-dots li.slick-active button:before{
+  color: #F81F1F;
+}

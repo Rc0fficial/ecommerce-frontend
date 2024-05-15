@@ -17,13 +17,13 @@ export const HeroSlider = () => {
         autoplaySpeed: 3000,
       };
   return (
-    <div className="relative">
+    <div className="relative ">
       <Slider {...settings}>
-        <div className='relative'>
-          <Image layout='fill' objectFit='cover' src="/images/bg.png" alt="Slide 1" />
+        <div className=''>
+        <img src="/images/bg.png" alt="Slide 2" />
         </div>
         <div>
-          <img src="/images/bg2.png" alt="Slide 2" />
+          <img src="/images/bg.png" alt="Slide 2" />
         </div>
         {/* Add more slides as needed */}
       </Slider>
