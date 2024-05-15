@@ -8,7 +8,7 @@ import { Hamburger } from "../svg/Hamburger.svg";
 
 const navbar = () => {
   return (
-    <div className="px-4">
+    <div className="">
     <div className=" flex py-[16px] items-center justify-between">
       <div className="flex items-center justify-between gap-2">
         <div className="md:hidden cursor-pointer">
