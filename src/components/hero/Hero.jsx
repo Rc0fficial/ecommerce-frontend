@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Credit } from "../svg/Credit.svg";
+import { HeroSlider } from "./HeroSlider";
 
 export const Hero = () => {
   return (
@@ -22,7 +23,9 @@ export const Hero = () => {
             <Credit w={"100%"} h={"100%"} />
           </div>
           <div className="flex flex-col">
-            <h3 className="text-[11px] md:text-[18px] text-white font-[600]">Credit Limit</h3>
+            <h3 className="text-[11px] md:text-[18px] text-white font-[600]">
+              Credit Limit
+            </h3>
             <p className="text-[7px] md:text-[14px] text-white font-[400]">
               get credit upto 10 lacs
             </p>
@@ -33,6 +36,9 @@ export const Hero = () => {
             Get Now
           </button>
         </div>
+      </div>
+      <div className="mt-4">
+        <HeroSlider />
       </div>
     </div>
   );
